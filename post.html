@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post | Trendy Tales</title>
+  <meta name="description" content="Read in-depth articles on Trendy Tales.">
+  <meta name="keywords" content="blog post, Trendy Tales">
+  <meta id="meta-og-title" property="og:title" content="Post | Trendy Tales">
+  <meta id="meta-og-description" property="og:description" content="Read in-depth articles on Trendy Tales.">
+  <meta id="meta-og-image" property="og:image" content="">
+  <link rel="canonical" id="canonical-link" href="https://trendytales.site/post.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="post">
+  <div data-include="header"></div>
+  <main class="page-main">
+    <article class="article-layout container">
+      <div class="article-main">
+        <div id="post-shell"></div>
+        <section class="comments-block">
+          <h3>Comments</h3>
+          <form id="comment-form" class="comment-form">
+            <input type="text" name="name" placeholder="Your name" required>
+            <textarea name="comment" placeholder="Share your thoughts" rows="5" required></textarea>
+            <button type="submit">Post comment</button>
+          </form>
+          <div id="comment-list" class="comment-list"></div>
+        </section>
+      </div>
+      <aside class="sidebar">
+        <div class="sidebar-card" id="related-posts"></div>
+        <div class="sidebar-card">
+          <h3>Categories</h3>
+          <div class="tag-list">
+            <a href="news.html">News</a>
+            <a href="personal-finance.html">Personal Finance</a>
+            <a href="living-abroad.html">Living Abroad</a>
+            <a href="travel.html">Travel</a>
+            <a href="business.html">Business</a>
+          </div>
+        </div>
+      </aside>
+    </article>
+  </main>
+  <div data-include="footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

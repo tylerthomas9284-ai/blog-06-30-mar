@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Trendy Tales</title>
+  <meta name="description" content="Read all Trendy Tales articles across news, personal finance, living abroad, travel, and business.">
+  <meta name="keywords" content="blog articles, news, finance, travel, business, living abroad">
+  <link rel="canonical" href="https://trendytales.site/blog.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="blog">
+  <div data-include="header"></div>
+  <main class="page-main">
+    <section class="page-hero container">
+      <p class="eyebrow">All categories</p>
+      <h1>Blog</h1>
+      <p>Search, filter, and read detailed stories built for USA readers and modern search intent.</p>
+      <div class="toolbar">
+        <form class="search-form" data-search-form>
+          <input type="search" name="query" placeholder="Search posts">
+          <button type="submit">Search</button>
+        </form>
+        <select id="category-filter" aria-label="Filter by category">
+          <option value="all">All categories</option>
+          <option value="News">News</option>
+          <option value="Personal Finance">Personal Finance</option>
+          <option value="Living Abroad">Living Abroad</option>
+          <option value="Travel">Travel</option>
+          <option value="Business">Business</option>
+        </select>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="post-grid" id="blog-grid"></div>
+      </div>
+    </section>
+  </main>
+  <div data-include="footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
